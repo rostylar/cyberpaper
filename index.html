@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPaper - AI Wallpaper Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="header-content">
+            <div class="logo">
+                <img src="https://images-platform.99static.com/QWF_TZ8CO2OFaaEQcpaqr1rReEs=/96x96:864x864/500x500/top/smart/99designs-contests-attachments/111/111306/attachment_111306318" alt="CyberPaper Logo">
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer">
+                    <img src="facebook.jpg" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/RoshanKrMehta" target="_blank" rel="noopener noreferrer">
+                    <img src="twitter1.avif" alt="Twitter">
+                </a>
+            </div>
+            <div class="contact-info">
+                <p>Contact: mehtaroshan57@gmail.com</p>
+            </div>
+        </div>
+        <h1>CyberPaper</h1>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <label for="category-input">Image Category:</label>
+            <input type="text" id="category-input" placeholder="e.g., nature, city, abstract, ...">
+            <button id="generate-button">Generate Wallpaper</button>
+            <button id="download-button">Download Wallpaper</button>
+            <div id="loading-spinner" class="hidden">Loading...</div>
+            <div id="wallpaper-container"></div>
+        </div>
+
+        <div class="imgcon">
+            <div class="image-grid">
+                <div class="image-container">
+                    <img src="a1.webp" alt="Image 1">
+                </div>
+                <div class="image-container">
+                    <img src="a2.jpg" alt="Image 2">
+                </div>
+                <div class="image-container">
+                    <img src="a3.webp" alt="Image 3">
+                </div>
+
+                <div class="image-container">
+                    <img src="b2.jpg" alt="Image 4">
+                </div>
+                <div class="image-container">
+                    <img src="b3.jpg" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="b4.jpeg" alt="Image 6">
+                </div>
+
+                <div class="image-container">
+                    <img src="c1.jpg" alt="Image 7">
+                </div>
+                <div class="image-container">
+                    <img src="c2.webp" alt="Image 8">
+                </div>
+                <div class="image-container">
+                    <img src="c3.jpeg" alt="Image 9">
+                </div>
+
+                <div class="image-container">
+                    <img src="d1.avif" alt="Image 10">
+                </div>
+                <div class="image-container">
+                    <img src="d2.webp" alt="Image 11">
+                </div>
+                <div class="image-container">
+                    <img src="d3.jpg" alt="Image 12">
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p>Email: mehtaroshan57@gmail.com</p>
+                    <p>Phone: +91 8810-276-164</p>
+                </div>
+                <div class="quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a class="about" href="#">Home</a></li>
+                        <li><a class="about" href="#">Email: mehtaroshan57@gmail.com</a></li>
+                        <li><a class="about" href="#">Phone: +91 8810-276-164</a></li>
+                        <li><a class="about" href="#">About us</a></li>
+                    </ul>
+                    <div><p>Copyright CyberPaper, Inc.</p></div>
+                </div>
+                <div class="social-links-footer">
+                    <h2>Follow Us</h2>
+                    <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer">
+                        <img class="footerlogo" src="facebook.jpg" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer">
+                        <img class="footerlogo" src="twitter1.avif" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/your-instagram-page" target="_blank" rel="noopener noreferrer">
+                        <img class="footerlogo" src="instagram.avif" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/your-youtube-handle" target="_blank" rel="noopener noreferrer">
+                        <img class="footerlogo" src="youtube.avif" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
